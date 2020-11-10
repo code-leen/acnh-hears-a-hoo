@@ -15,7 +15,7 @@
       </b-row>
     </b-container>
 
-    <b-container>
+    <b-container class= "element">
       <b-row>
         <b-col>
           <img src="../assets/acnh-muesum.png" class="img-fluid" style="max-width:800px">
@@ -38,6 +38,12 @@
 
 </script>
 
+<style scoped>
+  img {
+    border-radius: 3px;
+  }
+</style>
+
 <style>
 
   .home {
@@ -50,6 +56,10 @@
   .heading {
     font-size: 25px;
     font-weight: bold;
+  }
+
+  .element {
+    margin: 30px;
   }
 
 </style>
