@@ -28,7 +28,6 @@
 }
 
 #nav {
-  padding: 10px;
   background-color: #f4cc21;
   margin-bottom: 50px;
 }
