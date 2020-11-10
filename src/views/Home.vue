@@ -10,7 +10,7 @@
       </b-row>
       <b-row>
         <b-col>
-          Sleeping by day, Blathering by night
+          Sleeping by Day, Blathering by Night
         </b-col>
       </b-row>
     </b-container>
