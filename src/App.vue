@@ -58,5 +58,6 @@ body {
   display: flex;
   margin-left: 30px;
   margin-right: 30px;
+  font-size: 18px;
 }
 </style>
