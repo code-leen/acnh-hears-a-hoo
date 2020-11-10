@@ -1,14 +1,24 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+<div id="app">
+  <div id="nav">
+    <b-navbar variant="faded" type="dark">
+      <b-navbar-brand href="#">
+        <img src="../public/blathers-blue.png" class="d-inline-block logo" alt="Blathers"> ACNH Hears A Hoo
+      </b-navbar-brand>
+      <div class="nav-items">
+        <b-nav-item to="/">Home</b-nav-item>
+        <b-nav-item to="/bugs">Bugs</b-nav-item>
+      </div>
+    </b-navbar>
   </div>
+  <router-view />
+</div>
 </template>
 
 <style>
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~bootstrap-vue/dist/bootstrap-vue.css";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -18,7 +28,9 @@
 }
 
 #nav {
-  padding: 30px;
+  padding: 10px;
+  background-color: #f4cc21;
+  margin-bottom: 50px;
 }
 
 #nav a {
@@ -28,5 +40,24 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+body {
+  margin: 50px 100px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.nav-items {
+  display: flex;
+  margin-left: 100px;
+}
+
+.nav-item {
+  display: flex;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 </style>
