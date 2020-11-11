@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Bugs from '../views/Bugs.vue'
+import Fish from '../views/Fish.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -14,6 +15,11 @@ const routes = [
     path: '/bugs',
     name: 'Bugs',
     component: Bugs
+  },
+  {
+    path: '/fish',
+    name: 'Fish',
+    component: Fish
   },
 ]
 

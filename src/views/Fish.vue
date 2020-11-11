@@ -1,7 +1,7 @@
 <template>
-<b-container class="bugs">
-  <h1>Bugs</h1>
-  <ItemList :items="allBugs" />
+<b-container class="fish">
+  <h1>Fish</h1>
+  <ItemList :items="allFish" />
 </b-container>
 </template>
 
@@ -9,13 +9,13 @@
 import ItemList from "../components/ItemList.vue"
 
 export default {
-  name: 'Bugs',
+  name: 'Fish',
   components: {
     ItemList
   },
   computed: {
-    allBugs: function() {
-      var itemList = this.$root.$data.bugData;
+    allFish: function() {
+      var itemList = this.$root.$data.fishData;
       let formattedList = [];
       for (var x = 0; x < itemList.length; x++) {
         let currentName = itemList[x].name["name-USen"];

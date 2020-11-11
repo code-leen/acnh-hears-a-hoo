@@ -8,6 +8,7 @@
       <div class="nav-items">
         <b-nav-item to="/">Home</b-nav-item>
         <b-nav-item to="/bugs">Bugs</b-nav-item>
+        <b-nav-item to="/fish">Fish</b-nav-item>
       </div>
     </b-navbar>
   </div>
