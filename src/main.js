@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import bugs from './bug-data.js'
+import fish from './fish-data.js'
 import { BootstrapVue } from 'bootstrap-vue'
 
 Vue.config.productionTip = false
@@ -11,7 +12,8 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 let data = {
-  items: bugs
+  bugData: bugs,
+  fishData: fish,
 }
 new Vue({
   router,

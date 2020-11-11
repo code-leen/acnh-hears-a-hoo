@@ -15,7 +15,7 @@ export default {
   },
   computed: {
     allBugs: function() {
-      var itemList = this.$root.$data.items;
+      var itemList = this.$root.$data.bugData;
       let formattedList = [];
       for (var x = 0; x < itemList.length; x++) {
         let currentName = itemList[x].name["name-USen"];
