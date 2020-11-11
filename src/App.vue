@@ -13,6 +13,13 @@
     </b-navbar>
   </div>
   <router-view />
+  <footer class="footer">
+    <b-container>
+      <span class="text-muted">Rainy Day |
+        <a href="https://github.com/colleenkingcode/rainy-day">GitHub Repo</a>
+      </span>
+    </b-container>
+  </footer>
 </div>
 </template>
 
@@ -60,5 +67,16 @@ body {
   margin-left: 30px;
   margin-right: 30px;
   font-size: 18px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  /* Set the fixed height of the footer here */
+  line-height: 60px;
+  /* Vertically center the text there */
+  background-color: #f5f5f5;
 }
 </style>
