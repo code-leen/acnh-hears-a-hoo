@@ -15,8 +15,8 @@
   <router-view />
   <footer class="footer">
     <b-container>
-      <span class="text-muted">Rainy Day |
-        <a href="https://github.com/colleenkingcode/rainy-day">GitHub Repo</a>
+      <span class="text-muted">ACNH-Hears-A-Hoo |
+        <a href="https://github.com/colleenkingcode/acnh-hears-a-hoo">GitHub Repo</a>
       </span>
     </b-container>
   </footer>
@@ -47,10 +47,6 @@
 
 #nav a.router-link-exact-active {
   color: #f7f7f7;
-}
-
-body {
-  margin: 50px 100px;
 }
 
 .logo {
